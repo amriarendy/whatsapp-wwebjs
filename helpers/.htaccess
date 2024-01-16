@@ -1,0 +1,4 @@
+Options -Indexes
+
+Redirect 301 /wa-api/helpers/database.js /wa-api/403.html
+Redirect 301 /wa-api/helpers/formatter.js /wa-api/403.html

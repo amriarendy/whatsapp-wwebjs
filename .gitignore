@@ -1,0 +1,7 @@
+node_modules
+whatsapp-sessions.json
+package-lock.json
+uploads/.gitignore
+lib/excel/.gitignore
+.wwebjs_auth
+.wwebjs_cache

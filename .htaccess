@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !-f
+RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !-l
+
+Redirect 301 /wa-api/server.js /wa-api/403.html
+Redirect 301 /wa-api/package-lock.json /wa-api/403.html
+Redirect 301 /wa-api/package.json /wa-api/403.html
+ErrorDocument 404 /wa-api/404.html
