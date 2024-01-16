@@ -1,0 +1,18 @@
+###
+POST http://localhost:3000/send-message
+Content-Type: application/json
+
+{
+    "sender": "primary",
+    "number": "6282246686900",
+    "message": "Hi. This is from whatsapp api!"
+}
+
+###
+POST http://localhost:3000/send-media
+Content-Type: application/json
+
+{
+    "number": "6282246686900",
+    "caption": "Here is caption!"
+}
