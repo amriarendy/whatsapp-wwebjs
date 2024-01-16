@@ -1,0 +1,8 @@
+# node modules ignore 
+node_modules/
+
+# auth session
+.wwebjs_auth/
+
+# auth session
+.whatsapp-sessions.json
